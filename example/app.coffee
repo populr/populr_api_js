@@ -1,7 +1,18 @@
-populr = require('populr').config('LIIZAOPK-ITFEAWEB-HJYCKMPQ', 'api.lvh.me:3000')
 step = require('stepc')
 http = require('http')
 fs = require('fs')
+program = require('commander')
+
+program
+  .version('0.0.1')
+  .option('-e, --environment [env]', 'Populr.me Environment')
+  .parse(process.argv)
+
+if (program.environment == 'development')
+  populr = require('populr').config('LIIZAOPK-ITFEAWEB-HJYCKMPQ', 'api.lvh.me:3000')
+else
+  populr = require('populr').config('LIIZAOPK-ITFEAWEB-HJYCKMPQ')
+
 
 uploaded_asset = null
 

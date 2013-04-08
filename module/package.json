@@ -4,7 +4,7 @@
   "homepage": "http://developer.populr.me",
   "repository": {
     "type": "git",
-    "url": "https://github.com/populr/populr-api-node"
+    "url": "https://github.com/populr/populr_api_js"
   },
   "author": {
     "name": "Project 10k, Inc."
@@ -15,11 +15,11 @@
       "email": "ben@populr.me"
     }
   ],
-  "description": "Node.js API to the Populr.me Publishing API",
+  "description": "Node.js wrapper for the Populr.me Publishing API",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/populr/populr-api-node/raw/master/README.md"
+      "url": "https://github.com/populr/populr_api_js/raw/master/LICENSE.md"
     }
   ],
   "dependencies": {

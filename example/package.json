@@ -11,6 +11,8 @@
   "license": "BSD",
   "dependencies": {
     "fermata": "0.9.x",
-    "populr": "x.x.x"
+    "stepc": "0.x.x",
+    "populr": "x.x.x",
+    "commander": "1.1.1"
   }
 }
